@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px){
+
+    .btn-menu{
+        display: none;
+    }
+    .navbar-menu{
+        display: flex;
+        position: initial;
+        align-items: center;
+        justify-content: end;
+        padding: 0;
+        height: 0;
+    }
+
+    .menu{
+        display: flex   ;
+    }
+
+    .toggleMenu{
+        /* display: none; */
+    }
+}

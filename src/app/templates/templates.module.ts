@@ -14,6 +14,6 @@ const importComponents = [
   imports: [
     CommonModule
   ],
-  exports: importComponents
+  exports: importComponents 
 })
 export class TemplatesModule { }
