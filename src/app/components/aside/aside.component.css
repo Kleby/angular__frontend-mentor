@@ -1,0 +1,33 @@
+.aside__container{
+    background-color: #00001a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 24px;
+    margin: 32px 0;
+}
+
+.aside__title{
+    color:  #e9ab53;
+    font-size: 1.725rem;
+    margin-bottom: 20px;
+}
+
+.aside__item{
+    line-height: 32px;
+}
+
+.aside__item-title{
+    color: #fffdfa;
+    
+}
+
+.aside__item-desc{
+    /* color:  hsl(236, 13%, 42%); */
+    color: #c5c6ce;
+}
+
+.aside__line{
+    margin: 24px 0;
+    border-color:  #5d5f79; 
+}   
