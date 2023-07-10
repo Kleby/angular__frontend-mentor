@@ -2,32 +2,34 @@
     background-color: #00001a;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 20px 24px;
+    padding: 32px 24px;
     margin: 32px 0;
 }
 
 .aside__title{
     color:  #e9ab53;
     font-size: 1.725rem;
-    margin-bottom: 20px;
-}
-
-.aside__item{
-    line-height: 32px;
+    margin-bottom: 10px;
 }
 
 .aside__item-title{
     color: #fffdfa;
-    
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.aside__item-title:hover{
+    color: #e9ab53;
+    transition-duration: 500ms;
 }
 
 .aside__item-desc{
-    /* color:  hsl(236, 13%, 42%); */
     color: #c5c6ce;
+    line-height: 28px;
 }
 
 .aside__line{
     margin: 24px 0;
     border-color:  #5d5f79; 
+    line-height: 28px;
 }   

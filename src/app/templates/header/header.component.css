@@ -51,14 +51,16 @@
     position: relative;
     z-index: 999;
 }
-.nav-item{
 
-}
 .nav-link{
-    text-decoration: none;
     padding: 10px;
     display: flex;
     color : #000;
+}
+
+.nav-link:hover{
+    color: #f15e50;
+    transition-duration: 500ms;
 }
 
 @keyframes menu-show {

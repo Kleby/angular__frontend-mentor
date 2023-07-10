@@ -1,0 +1,26 @@
+.footer__container{
+    background-color: #00001A;
+    color: #fffdfa;
+    
+    width: 100vw;
+    /* padding: 44px 0; */
+    height: 78px;
+
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+a{
+    color: #f15e50;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #fffdfa;
+    transition-duration: 500ms;
+}

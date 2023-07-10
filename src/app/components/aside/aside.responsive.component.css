@@ -1,0 +1,11 @@
+@media screen and (min-width:768px){
+    .aside__container{
+        height: 100%;
+        margin: 0;
+        min-width: 300px;
+    }
+    .aside__title{
+        font-size: 2rem;
+    }
+
+}

@@ -11,4 +11,10 @@ body{
     font-family: 'Inter', sans-serif;
     background-color:  #fffdfa;
     font-size: 15px;
+    max-width: 98%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
 }

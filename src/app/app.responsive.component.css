@@ -1,0 +1,20 @@
+@media screen and (min-width: 769px) {
+    .app__container{
+        margin: 0;
+        justify-content: space-between;
+    }
+    
+    .app__content{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .app__cards{
+        flex-direction: row;
+    }
+    
+    .bg-shadow {
+        background-color: transparent;
+    }  
+
+}

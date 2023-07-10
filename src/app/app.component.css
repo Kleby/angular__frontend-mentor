@@ -1,17 +1,27 @@
 .app__container{
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.app__cards{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top:32px;
+    padding: 20px 0;
 }
 
-
-@media screen and (max-width: 767px) {
-    .bg-shadow{
-        width: 100vw;
-        height: 100vh;
-        position: absolute;
-        background-color: #3f3e44;;
-        
-    }
+.bg-shadow{
+    
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #3f3e44;
+    overflow: hidden;
 }

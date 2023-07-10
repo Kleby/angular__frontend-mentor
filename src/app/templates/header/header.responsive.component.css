@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
 
     .btn-menu{
         display: none;
@@ -10,13 +10,11 @@
         justify-content: end;
         padding: 0;
         height: 0;
+        width: 100%;
     }
 
     .menu{
         display: flex   ;
     }
 
-    .toggleMenu{
-        /* display: none; */
-    }
 }

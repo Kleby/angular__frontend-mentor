@@ -1,16 +1,18 @@
 <div class="card__container">
-    <div class="card__picture">
-        <img src="../../../assets/images/image-retro-pcs.jpg" alt="Retro PC">
-    </div>
+    <a href="#" class="card__picture">
+        <img [src]="cardPicture" [alt]="cardTitle">
+    </a>
     <div class="card__content">
         <h3 class="card__order">
-            01
+            {{cardOrder}}
         </h3>
-        <h4 class="card__title">
-            Reviving Retro PCs
-        </h4>
+        <a href="#" target="_blank">
+            <h4 class="card__title">
+                {{cardTitle}}
+            </h4>
+        </a>
         <p class="card__desc">
-            What happens when old PCs are given modern upgrades?
+            {{cardDesc}}
         </p>
     </div>
 </div>

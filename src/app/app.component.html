@@ -1,37 +1,31 @@
-<div class="app__container" [ngClass]="{'bg-shadow': isToggle}" >
+<div class="app__container" [ngClass]="{'bg-shadow': isToggle}">
 
-<header>
+  <header>
     <app-header (toggleEmit)="handleOutput($event)"></app-header>
   </header>
 
   <main>
 
     <div class="app__content">
-      <article>
-        <app-section [isToggle]="isToggle"></app-section>    
-      </article>
-
-      <app-aside></app-aside>
-    </div>
-    
-    <div class="app__cards">
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-    </div>
+      <app-section [isToggle]="isToggle"></app-section>
       
-    <!-- 02
-    Top 10 Laptops of 2022
-    Our best picks for various needs and budgets.
+      <app-aside [news]="news"/>
+    </div>
 
-    03
-    The Growth of Gaming
-    How the pandemic has sparked fresh opportunities. -->
+    <div class="app__cards">
+      <div *ngFor="let card of cards">
+        <app-card
+          [cardPicture]="card.cardPicture"
+          [cardOrder]="card.cardOrder"
+          [cardTitle]="card.cardTitle"
+          [cardDesc]="card.cardDescription" />
+      </div>
+
+    </div>
+
   </main>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
-      target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-  
+  <footer>
+    <app-footer />
+  </footer>
+
 </div>
